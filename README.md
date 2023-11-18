@@ -22,7 +22,7 @@ El archivo `main.py` contiene la lógica principal de la aplicación, mientras q
 
 1. Clona este repositorio en tu entorno de desarrollo.
 2. Ejecuta el archivo `main.py` en una Raspberry ESP32 con Micropython.
-3. Abre un navegador y accede a la interfaz web en `http://direccion-de-tu-pico:puerto` (sustituye con la dirección y puerto correctos).
+3. Abre un navegador y accede a la interfaz web en `http://direccion-ip` (sustituye con la dirección y puerto correctos).
 4. Disfruta monitoreando la temperatura a través de la interfaz web intuitiva.
 
 ¡Espero que esta implementación te resulte útil y que encuentres inspiración para tus propios proyectos con Microdot!
