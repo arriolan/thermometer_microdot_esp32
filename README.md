@@ -1,8 +1,8 @@
-### Microdot Sample: Indicador de Temperatura con Interfaz Web
+# Microdot Sample: Indicador de Temperatura con Interfaz Web
 
 Bienvenido a **Microdot Sample**, un ejemplo de implementación de un indicador de temperatura con una interfaz web. Esta aplicación utiliza un servidor Flask ejecutándose con Micropython en una ESP32.
 
-#### Estructura de Archivos
+## Estructura de Archivos
 
 ```
 |-- main.py (aplicación principal)
@@ -14,7 +14,7 @@ Bienvenido a **Microdot Sample**, un ejemplo de implementación de un indicador 
         |-- data.js (script que actualiza la interfaz periódicamente)
 ```
 
-#### Descripción
+### Descripción
 
 El archivo `main.py` contiene la lógica principal de la aplicación, mientras que `index.html` proporciona la interfaz de usuario para visualizar la temperatura. Los estilos de la interfaz se encuentran en el directorio `css`, específicamente en `style.css`. El directorio `js` alberga el script `data.js`, responsable de actualizar la interfaz de forma periódica.
 
