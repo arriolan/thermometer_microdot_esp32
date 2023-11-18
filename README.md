@@ -1,28 +1,28 @@
-# Microdot Sample: Indicador de Temperatura con Interfaz Web
+# Microdot Sample: Temperature Indicator with Web Interface
 
-Bienvenido a **Microdot Sample**, un ejemplo de implementación de un indicador de temperatura con una interfaz web. Esta aplicación utiliza un servidor Flask ejecutándose con Micropython en una ESP32.
+Welcome to **Microdot Sample**, an example implementation of a temperature indicator with a web interface. This application uses a Flask server running with Micropython on an ESP32.
 
-## Estructura de Archivos
+## File Structure
 
 ```
-|-- main.py (aplicación principal)
-|-- index.html (interfaz de la aplicación)
-|-- assets (directorio con archivos CSS y JS)
-    |-- css (estilos de la interfaz)
-        |-- style.css (archivos de estilos)
-    |-- js (scripts de JavaScript)
-        |-- data.js (script que actualiza la interfaz periódicamente)
+|-- main.py (main application)
+|-- index.html (application interface)
+|-- assets (directory with CSS and JS files)
+    |-- css (interface styles)
+        |-- style.css (style files)
+    |-- js (JavaScript scripts)
+        |-- data.js (script that updates the interface periodically)
 ```
 
-## Descripción
+## Description
 
-El archivo `main.py` contiene la lógica principal de la aplicación, mientras que `index.html` proporciona la interfaz de usuario para visualizar la temperatura. Los estilos de la interfaz se encuentran en el directorio `css`, específicamente en `style.css`. El directorio `js` alberga el script `data.js`, responsable de actualizar la interfaz de forma periódica.
+The `main.py` file contains the main logic of the application, while `index.html` provides the user interface for viewing the temperature. The interface styles are located in the `css` directory, specifically in `style.css`. The `js` directory hosts the `data.js` script, responsible for periodically updating the interface.
 
-## Guía Rápida
+## Quick Guide
 
-1. Clona este repositorio en tu entorno de desarrollo.
-2. Ejecuta el archivo `main.py` en una Raspberry ESP32 con Micropython.
-3. Abre un navegador y accede a la interfaz web en `http://direccion-ip` (sustituye con la dirección y puerto correctos).
-4. Disfruta monitoreando la temperatura a través de la interfaz web intuitiva.
+1. Clone this repository into your development environment.
+2. Run the `main.py` file on an ESP32 with Micropython.
+3. Open a browser and access the web interface at `http://ip-address` (replace with the correct address and port).
+4. Enjoy monitoring the temperature through the intuitive web interface.
 
-¡Espero que esta implementación te resulte útil y que encuentres inspiración para tus propios proyectos con Microdot!
+I hope this implementation proves helpful, and you find inspiration for your own projects with Microdot!
