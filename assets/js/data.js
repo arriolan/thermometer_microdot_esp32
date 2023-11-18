@@ -1,16 +1,16 @@
-// Pido los datos cada segundo
+// Request data every second
 setInterval(() => {
-    // Pido los datos a la ruta /data/update
+    // Request the data from the /data/update route
     fetch("/data/update")
     .then(response => response.json())
     .then(data => {
-        // Guardo el valor de temperatura
+        // Save the temperature value
         const temp = data.cpu_temp;
-        // Maximo valor de temperatura
+        // Maximum temperature value
         const max_temp = 45;
-        // Lo escalo a un valor entre -30 y 240 grados
+        // Scale it to a value between -30 and 240 degrees
         const deg = temp * 270 / max_temp - 30;
-        // Lo cambio en la aguja
+        // Change it on the needle
         document.querySelector(".gauge .pointer .hand").style.transform = `rotate(${deg}deg)`;
     })
     
