@@ -36,4 +36,4 @@ if __name__ == "__main__":
         print("IP: " + ip + ":5000")
         app.run()
     except KeyboardInterrupt:
-        print("Medicion En Tiempo Real")
+        print("MEASUREMENT OFF")
