@@ -14,11 +14,11 @@ Bienvenido a **Microdot Sample**, un ejemplo de implementación de un indicador 
         |-- data.js (script que actualiza la interfaz periódicamente)
 ```
 
-### Descripción
+## Descripción
 
 El archivo `main.py` contiene la lógica principal de la aplicación, mientras que `index.html` proporciona la interfaz de usuario para visualizar la temperatura. Los estilos de la interfaz se encuentran en el directorio `css`, específicamente en `style.css`. El directorio `js` alberga el script `data.js`, responsable de actualizar la interfaz de forma periódica.
 
-#### Guía Rápida
+## Guía Rápida
 
 1. Clona este repositorio en tu entorno de desarrollo.
 2. Ejecuta el archivo `main.py` en una Raspberry ESP32 con Micropython.
