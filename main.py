@@ -26,7 +26,7 @@ def data_update(request):
     from machine import ADC, Pin
     sensor_temp = ADC(Pin(33))
     lectura = sensor_temp.read_u16() * 3.3 / (1 << 16)
-    temperatura_cpu = lectura * 40
+    temperatura_cpu = lectura * 100
     print (temperatura_cpu)
     return { "cpu_temp" : temperatura_cpu }
 
